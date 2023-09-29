@@ -36,9 +36,11 @@ html, body{
     font-size: 2rem;
 }
 
-h1{
+.title-index{
     color: #101A31;
     text-align: center;
+    margin-top: 150px;
+    font-weight: 600;
 }
 
 .prueba2{
