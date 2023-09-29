@@ -372,13 +372,14 @@ h5{
     color: #fff;
 }
 
+/* Media Query nav */
+
 @media (max-width: 768px) {
     .collapse{
         display: flex;
         justify-content: start;
     }
 }
-/* Media Query nav */
 
 @media (max-width: 320px) {
     .nauticos{
