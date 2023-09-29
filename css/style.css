@@ -228,6 +228,9 @@ h2{
     background-color: #101A31;
 }
 
+p{
+    font-weight: 500;
+}
 
 
 /* Acá empieza la sección trabajos */
@@ -294,12 +297,17 @@ address {
 
 /* Acá empieza la sección Preguntas Frecuentes */
 
+.title-preg{
+    font-size: 1.7rem;
+    margin-top: 100px;
+}
+
 .body-question{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #101A31;
+    background: #fff;
     padding-bottom: 50px; 
 }
 
@@ -322,7 +330,7 @@ h5{
 .container-question .tab{
     background: #fff;
     padding: 20px 20px;
-    box-shadow: 0 15px 25px rgba(0,0,0,0.05);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.411);
     border-radius: 5px;
     overflow: hidden;
 }
@@ -357,6 +365,16 @@ h5{
 .container-question h5{
     font-weight: 600;
 }
+
+.container-question h2::after {
+    content: "";
+    width: 300px;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #101A31;
+}
+
 
 /* Finaliza */
 
